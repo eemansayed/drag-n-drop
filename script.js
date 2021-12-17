@@ -20,8 +20,8 @@ function dragEnd() {
   this.className = "fill";
 }
 
-function dragOver() {
-  console.log("drag over");
+function dragOver(e) {
+  e.preventDefault(e);
 }
 
 function dragEnter() {
