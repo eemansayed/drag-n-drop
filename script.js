@@ -21,11 +21,11 @@ function dragEnd() {
 }
 
 function dragOver(e) {
-  e.preventDefault(e);
+  e.preventDefault();
 }
 
-function dragEnter() {
-  console.log("drag enter");
+function dragEnter(e) {
+  e.preventDefault();
 }
 
 function dragLeave() {
