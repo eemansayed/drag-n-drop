@@ -1,3 +1,5 @@
+const fill = document.querySelector(".fill");
+
 function dragStart() {
   console.log("drag start");
 }
