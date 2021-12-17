@@ -30,7 +30,7 @@ function dragEnter(e) {
 }
 
 function dragLeave() {
-  console.log("drag leave");
+  this.className = "empty";
 }
 
 function dragDrop() {
